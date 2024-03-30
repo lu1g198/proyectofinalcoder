@@ -1,0 +1,27 @@
+main{
+    .inicio{
+        section{
+            text-align: center;
+            @include casimediano{
+                text-align: center;
+            }
+            @include mediano{
+                text-align: left;
+            }
+            .left{
+                h1{
+                    @include casimediano{
+                        text-align: left;
+                    }
+                    @include mediano{
+                        text-align: left;
+                    }
+                }
+                form{
+                    text-align: center;
+                }
+
+            }
+        }
+    }
+}

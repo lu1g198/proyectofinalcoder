@@ -1,0 +1,11 @@
+.item{
+    border: 5px solid #000;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    transition: 0.5s;
+    &:hover{
+        transform: scale(0.9);
+        background-color: #f8c669;                                
+    }
+}

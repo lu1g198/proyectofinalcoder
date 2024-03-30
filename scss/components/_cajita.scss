@@ -1,0 +1,31 @@
+.cajita{
+    text-align: center;
+    background-color: yellow;
+    width: 30%;
+    height: 40%;
+    margin-top: 20px;
+    margin-left: 35%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #805300;
+    padding: 10px;
+    transition: 0.5s;
+    &:hover{
+        transform: scale(0.9);
+        background-color: orange;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 12px;
+        @include pequeño{
+            font-size: 15px;
+        }
+        @include mediano{
+            font-size: 18px;
+        }
+        &:hover{
+            color: white;
+        }
+    }
+}

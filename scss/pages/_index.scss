@@ -1,0 +1,70 @@
+main{
+    background-color: $fondo-general;
+    padding: 20px;
+    .inicio{
+        @include mediano{
+            display: flex;
+            justify-content: space-between;
+            width: auto;
+            height: 515px;            
+        }
+        .left{
+            @include mediano {
+                width: 50%;
+                padding-left: 30px;
+                padding-right: 10px;
+                }
+                @include casimediano {
+                    font-size: 17px;
+                }
+                h1{
+                    @include mediano{
+                        text-align: left;
+                    }
+                }
+                h2{
+                    @include mediano{
+                        text-align: left;
+                    }
+                } 
+                p{
+                    @include mediano{
+                        text-align: left;
+                    }
+                }
+                .call{
+                    .cajita{
+                        @include mediano{
+                            width: 60%;
+                            height: 40%;
+                            margin-left: 1%;
+                        }                        
+                    }
+                } 
+            
+        }
+        .right{
+            @include mediano{
+                width: 600px;
+            }
+            img{
+                margin-top: 20px;
+                width: 400px;
+                height: auto;
+                background-size: cover;
+                background-position: center;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                @include mediano{
+                    margin-right: 10px;
+                    width: 600px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+            }
+        }
+    }    
+
+}
+

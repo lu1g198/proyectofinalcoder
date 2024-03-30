@@ -1,0 +1,27 @@
+footer{
+    background-color: $fondo-footer;
+    padding: 20px;
+    text-align: center;
+    color:map-get($colores,color-texto-secundario);
+    @include mediano{
+		display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+	}
+    .redes{
+        font-size: 30px;
+        letter-spacing: 15px;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }    
+}

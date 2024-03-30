@@ -1,0 +1,19 @@
+@import 'base/generales';
+@import 'base/variables';
+
+@import 'utilities/maps';
+@import 'utilities/extend';
+@import 'utilities/mixins';
+
+@import 'components/cajita';
+@import 'components/footer';
+@import 'components/h1';
+@import 'components/h2';
+@import 'components/p';
+@import 'components/item';
+@import 'components/sectioncomplementaria';
+
+@import 'pages/index';
+@import 'pages/contacto';
+@import 'pages/productos';
+@import 'pages/terapiaperson';

@@ -1,0 +1,17 @@
+@mixin pequeño {
+    @media only screen and (min-width:580px) and (max-width: 1000px) {
+        @content;
+    }
+}
+
+@mixin casimediano {
+    @media only screen and (min-width:1001px) and (max-width: 1200px){
+        @content;
+    }
+}
+
+@mixin mediano {
+    @media only screen and (min-width:1200px) {
+        @content;
+    }
+}
